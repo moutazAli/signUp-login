@@ -1,0 +1,26 @@
+<%- include('partials/header'); -%>
+
+<div class="container">
+	<h1>
+	login page
+	</h1>
+
+	<form action="/login" method="POST" >
+		<input type="text" name="username" placeholder="username" >
+		<input type="password" name="password" placeholder="password" >
+		<input type="submit" placeholder="submit" >
+	</form>
+
+
+	<div>
+		<a href="/register" >register page</a>
+	</div>
+	
+	<a class="btn btn-secondary" href="/" role="button">home page</a>
+
+</div>
+
+
+
+
+<%- include('partials/footer'); -%>
